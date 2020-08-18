@@ -1,0 +1,501 @@
+@media(min-width: 800px) {
+	
+	body{
+		background-color: #E0F8F1;
+	}
+	/*Barra de menú*/
+	nav{
+		font-family: cambria;
+		background-color: white;
+		height: 100px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index: 1000;
+	}
+	.right{
+		
+		width: 8em;
+		height: 0.3em;
+		background-color: black;
+		float: right;
+	}
+	.left{
+		width: 8em;
+		height: 0.3em;
+		background-color: black;
+		float: left;
+
+	}
+	/*------Lista no ordenada-------*/
+	ul{
+		
+		justify-content: center;
+	}
+	.horizontal a:hover{
+		color:  black;
+	}
+
+	.horizontal li{
+		float: left;
+		margin: 0;
+		padding: 0;
+	}
+	/*------Sin guiones------*/
+	.no-style{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		background-color: white;
+	}
+	.horizontal a{
+		font-family: cambria;
+		font-size: 3em;
+		color: #0DC28D;
+		background-color: white;
+		margin: 0;
+		text-align: center;
+		padding: 20px;
+		text-decoration: none;
+		font-variant: small-caps;
+	}
+
+	/*Foto principal*/
+	header{
+		font-family: maiandra gd;
+		color: transparent;
+		background-color: transparent;
+		background-image: url(img/pastoruri.JPG);
+		background-position: center ;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		height: 35em;
+		-webkit-text-stroke: 3px white; 
+		border-radius: 50px;
+		margin-top: 100px;
+		
+
+	}
+
+	.h1{
+		font-size: 1.7em;
+		position:  absolute;
+		top: 40%;
+		left: 50%;
+	}
+
+	.h2{
+		font-size: 3em;
+	 	position:  absolute;
+		top: 45%;
+		left: 65%;
+		font-variant: small-caps;
+	}
+
+	h1:hover, h2:hover{
+		-webkit-text-stroke: 3px black;
+		
+	}
+	
+
+	
+	/* CONTENIDOS*/
+	/* ------ Títulos------*/
+	#parrafo1{
+		font-family: berlin sans fb; 
+		font-size: 2.5em;
+		font-weight: 600;
+		text-align: center;
+		padding-top: 50px;
+		color: #0DC28D;
+	}
+
+	/* Contenido "Un poco sobre mi" */
+	article{
+		width: 80em;
+		max-width: 100%;
+		margin-right: auto;
+		margin-left: auto;
+
+		
+
+	}
+	/* ------ SubTítulos------*/
+	h3{
+		font-size: 1.3em;
+		font-family: century gothic;
+		font-variant: small-caps;
+		color: #441D64;
+		padding-left: 50px;
+		
+	}
+
+	p{
+		font-size: 1.1em;
+		font-family: cambria;
+
+	}
+
+	/*------Posicion de las imagenes del parrafo------*/
+	article img{
+		float: left;
+
+	}
+	.imagen{
+		border-radius: 20px;
+		width: 300px; 
+		height: 270px;
+	}
+	.content{
+		padding-left: 350px;
+
+	}
+
+	
+	.gifthtml{
+		width: 35px; 
+		height: 35px;
+		padding: 0;
+		margin: 0; 
+	}
+
+	/* Contenido "My day to day" */
+	.art{
+		display: inline;
+	}
+	.foto{	
+		-webkit-filter: grayscale(1);
+		width: 300px; 
+		height: 220px;
+	}
+	.contenedor{
+		overflow: hidden;
+		width: 300px; 
+		height: 220px;
+		float: left;
+	}
+	.foto:hover{
+		
+		-webkit-filter: grayscale(0);
+		-webkit-transform:scale(1.25);
+		transition: transform .9s ;	
+
+	}
+
+
+	/* Contenido "My qualities" */
+	.cual{
+		text-align: center;
+		font-family: berlin sans fb;
+		font-size: 1.8em;
+		font-style: italic;
+		font-variant: small-caps;
+	}
+	
+
+	/*Pie de página*/
+	footer{
+		padding-top: 0.5em;
+		background: #78FCCB;
+		font-weight: 600;
+		text-align: center;
+		height: 480px;
+		border-radius: 30px;
+
+		background: radial-gradient(#AEF7F6, #83EBEA, #57B5AD);
+		
+
+	}
+
+	/*-------Titulo del pie de pagina------*/
+	.descrip{
+		font-family: century gothic; 
+		font-variant: small-caps;
+		font-size: 3em;
+		color: #107271;
+		margin-bottom: 10px;
+	}
+	/* -----Bandera-----*/
+	.gift{
+		width: 35px; 
+		height: 35px;
+		padding: 0;
+		margin: 0; 
+		margin-right: 10px;
+
+	}
+	/*------Contenido del pie de página-------*/
+	.des{
+		font-style: italic;
+		font-family: century gothic; 
+		font-size: 1.2em;
+	}
+	.des:hover{
+		color:white;
+	}
+	/*------Redes Sociales------*/
+	.redes{
+		padding-top: 50px;
+		width: 100px; 
+		height: 100px;	
+		padding-left: 50px;
+		display: inline-block;	
+	}
+	
+	
+
+}
+
+
+
+
+
+@media(max-width: 799px){
+	nav{
+		font-family: cambria;
+		background-color: white;
+		height: 80px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index: 1000;
+
+	}
+	.right{
+		
+		width: 6em;
+		height: 0.3em;
+		background-color: black;
+		float: right;
+	}
+	.left{
+		width: 6em;
+		height: 0.3em;
+		background-color: black;
+		float: left;
+
+	}
+	ul{
+		
+		justify-content: center;
+	}
+	.horizontal a:hover{
+		color:  black;
+	}
+
+	.horizontal li{
+		float: left;
+		margin: 0;
+		padding: 0;
+	}
+	.no-style{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+	.horizontal a{
+		font-family: broadway;
+		font-size: 2em;
+		color: #0DC28D;
+		background-color: white;
+		margin: 0;
+		text-align: center;
+		padding: 20px;
+		text-decoration: none;
+		font-variant: small-caps;
+	}
+
+
+	header{
+		font-family: maiandra gd;
+		color: transparent;
+		background-color: transparent;
+		background-image: url(img/PAISAJE.JPG);
+		background-position: 0 0 ;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		height: 30em;
+		-webkit-text-stroke: 2px white; 
+		border-radius: 9em;
+		margin-top: 80px
+	}
+
+	.h1{
+		font-size: 1.4em;
+		position:  absolute;
+		top: 40%;
+		left: 50%;
+	}
+
+	h1:hover, h2:hover{
+		-webkit-text-stroke: 2px black;
+		
+	}
+	.h2{
+		font-size:2.3em;
+	 	position:  absolute;
+		top: 45%;
+		left: 65%;
+		font-variant: small-caps;
+	}
+
+	#parrafo1{
+		font-family: berlin sans fb; 
+		font-size: 2.5em;
+		font-weight: 600;
+		text-align: center;
+		padding-top: 1px;
+		color: #0DC28D;
+	}
+
+	h3{
+		
+		font-size: 1.3em;
+		font-family: century gothic;
+		font-variant: small-caps;
+		color: #441D64;
+		padding-left: 20px;
+			
+	}
+
+	p{
+		font-size: 1.1em;
+		font-family: cambria;
+	}
+
+	article{
+		width: 60em;
+		max-width: 100%;
+		margin-right: auto;
+		margin-left: auto;
+		align-items: center;
+		
+
+	}
+	
+
+	.content{
+		padding: 2em;
+
+	}
+
+	.imagen{
+		border-radius: 20px;
+		width: 300px; 
+		height: 270px;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.gifthtml{
+		float: left;
+		width: 35px; 
+		height: 35px;
+		padding: 0;
+		margin: 0; 
+		margin-right: 10px;
+
+	}
+
+	.foto{
+		
+		-webkit-filter: grayscale(1);
+		width: 300px; 
+		height: 220px;
+		
+		
+
+	}
+	.contenedor{
+		overflow: hidden;
+		width: 300px; 
+		height: 220px;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		
+		
+	}
+	.foto:hover{
+		
+		-webkit-filter: grayscale(0);
+		-webkit-transform:scale(1.25);
+		transition: transform .9s ;	
+
+	}
+
+	.art{
+		text-align: center;
+		max-width: 100%;
+	
+		margin-right: auto;
+		margin-left: auto;
+		justify-content: center;
+		
+	}
+	.cual{
+		text-align: center;
+		font-family: berlin sans fb;
+		font-size: 1.8em;
+		font-style: italic;
+		font-variant: small-caps;
+
+	}
+
+	footer{
+		padding-top: 2em;
+		background: #78FCCB;
+		font-weight: 600;
+		text-align: center;
+		height: 360px;
+		border-radius: 50px;
+
+		background: radial-gradient(#AEF7F6, #83EBEA, #57B5AD);
+		
+
+	}
+
+	.redes{
+		padding-top: 10px;
+		width: 60px; 
+		height: 60px;	
+		padding-left: 50px;
+		display: inline-block;	
+	}
+
+	.descrip{
+
+		font-family: century gothic; 
+		font-variant: small-caps;
+		font-size: 25px;
+		color: #107271;
+		margin-bottom: 25px;
+	}
+	.des{
+		font-style: italic;
+		font-family: century gothic; 
+		font-size:15px;
+	}
+	.des:hover{
+		color:white;
+	}
+	.gift{
+		width: 35px; 
+		height: 35px;
+		padding: 0;
+		margin: 0; 
+		margin-right: 10px;
+
+	}
+
+
+}
